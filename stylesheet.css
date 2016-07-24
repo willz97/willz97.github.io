@@ -1,0 +1,237 @@
+/* webfonts */
+@font-face {
+	font-family: BebasNeue;
+	src: url(fonts/BebasNeue.otf);
+}
+
+body {
+    margin: 0;
+    text-align: center;
+	background-color: #6D6E70;
+}
+
+div.header {
+	width: 100%;
+	height: 161px;
+	background-color: #939598;
+	text-align: center;
+	margin: auto;
+	font-size: 4.2vmin;
+	color: #ffffff;
+}
+
+div.head_padding {
+	padding-bottom: 2.5px;
+}
+
+a.avatar-link {
+	text-align: center;
+}
+
+img.avatar {
+	position: absolute;
+	left: 5%;
+	height: 12%;
+	padding-top: 23px;
+	padding-bottom: 24px;
+}
+
+.nav {
+	position: absolute;
+	margin-left: 255px;
+	margin-top: 52px;
+	margin-bottom: 52px;
+}
+
+#currentpage {
+	color: #E2272B;
+}
+
+div a:link {
+	text-decoration: none;
+	color: #E6E7E8;
+}
+
+div a:visited {
+	text-decoration: none;
+	color: #E6E7E9;
+}
+
+div a:active {
+	text-decoration: none;
+	color: #E2272B;	
+}
+
+div a:hover {
+	text-decoration: none;
+	color: #6D6E70;	
+}
+
+.navlink-work {
+	font-family: BebasNeue;
+	font-size: 22pt;
+	display: inline;
+	padding-right: 8px;
+}
+
+.navlink-contact {
+	font-family: BebasNeue;
+	font-size: 22pt;
+	display: inline;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+.navlink-about {
+	font-family: BebasNeue;
+	font-size: 22pt;
+	display: inline;
+	padding-left: 8px;
+}
+
+.navlink-education {
+	font-family: BebasNeue;
+	font-size: 22pt;
+	display: inline;
+	padding-left: 8px;
+}
+
+#photos {
+	/* Prevent vertical gaps */
+	line-height: 0;
+   
+	-webkit-column-count: 5;
+	-webkit-column-gap: 0px;
+	-moz-column-count: 5;
+	-moz-column-gap: 0px;
+	column-count: 5;
+	column-gap: 0px;
+	background-color: #6D6E70;
+}
+
+#photos img {
+	/* Just in case there are inline attributes */
+	width: 100% !important;
+	height: auto !important;
+}
+
+@media (max-width: 1200px) {
+	#photos {
+		-moz-column-count: 4;
+		-webkit-column-count: 4;
+		column-count: 4;
+	}
+}
+@media (max-width: 1000px) {
+	#photos {
+		-moz-column-count: 3;
+		-webkit-column-count: 3;
+		column-count: 3;
+	}
+}
+@media (max-width: 800px) {
+	#photos {
+		-moz-column-count: 2;
+		-webkit-column-count: 2;
+		column-count: 2;
+	}
+}
+@media (max-width: 400px) {
+	#photos {
+		-moz-column-count: 1;
+		-webkit-column-count: 1;
+		column-count: 1;
+	}
+}
+
+.about-container {
+	background-color: #6D6E70;
+	width: 275px;
+	position: fixed;
+	left: 5%;
+}
+
+.info-title {
+	color: #E2272B;
+	font-family: BebasNeue;
+	font-size: 22pt;
+	text-align: left;
+	margin-bottom: 0px;
+	margin-top: 35px;
+}
+
+.info-text {
+	color: #E6E7E8;
+	font-family: BebasNeue;
+	font-size: 20pt;
+	text-align: left;
+	line-height: 120%;
+	margin-top: 15px;
+}
+
+.image-list-container {
+	background-color: #6D6E70;
+}
+
+.image-list-content {
+	position: relative;
+	top: 50%;
+	width: 800px;
+	left: 29%;
+}
+
+.image-list-style {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.contacts-info-container {
+	font-family: BebasNeue;
+	font-size: 22pt;
+	color: #E6E7E8;
+}
+
+.email-icon-container {
+	margin-top: 30px;
+	padding-top: 30px;
+}
+
+.personal-info-container {
+	display:inline-block;
+    vertical-align:middle;
+	padding-top: 30px;
+}
+
+.person-info-para {
+	font-family: BebasNeue;
+	font-size: 22pt;
+	color: #E6E7E8;
+	width: 475px;
+	line-height: 125%;
+}
+
+.education-container {
+	font-family: BebasNeue;
+	font-size: 22pt;
+	color: #E6E7E8;
+	display:inline-block;
+    vertical-align:middle;
+	padding-top: 30px;
+}
+
+.education-column-left {
+	display: inline-block;
+	box-sizing: border-box;
+	text-align: left;
+}
+
+.education-column-right {
+	display: inline-block;
+	box-sizing: border-box;
+	text-align: left;
+}
+
+.about-course {
+	width: 50%;
+	margin-left: 25%;
+}
