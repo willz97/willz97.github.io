@@ -96,6 +96,8 @@ div a:hover {
 	padding-left: 8px;
 }
 
+/* Code for photo grid from Chris Coyier at css-tricks.com */
+
 #photos {
 	/* Prevent vertical gaps */
 	line-height: 0;
